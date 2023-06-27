@@ -1,0 +1,123 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.containerX {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.topLeft {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+
+.topRight {
+  position: absolute;
+  top: 0;
+  right: -26%;
+  height: 100%;
+  width: 100%
+}
+
+.bottomLeft {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.bottomRight {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+#root {
+  /*url(https://www.cash.at/news/media/16/Migros-2020-154085.jpeg);*/
+  background-size: 120%;
+  background-position-y: -430px;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.audio-container {
+  position: absolute;
+  bottom: 10px;
+  padding: 10px;
+  z-index: 9999999;
+  display: flex;
+  align-items: center;
+  /* Aligns items vertically in the middle */
+  gap: 10px;
+  /* Adds some space between the elements */
+}
+
+.audio-container p {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  font-weight: bold;
+}
+
+.record-button {
+  width: 50px;
+  height: 50px;
+  background-color: #0084ff;
+  border: none;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.disabledRecorder::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 4px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.record-button.recording {
+  background-color: #e60000;
+  transform: scale(1.2);
+}
+
+.record-button.swiping {
+  background-color: #e60000;
+  transform: translateX(-100%);
+}
+
+.audio-player {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  width: calc(100% - 60px);
+  height: 50px;
+}

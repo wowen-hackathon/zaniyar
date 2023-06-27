@@ -1,0 +1,51 @@
+{
+  "name": "MetaRoom.city Avatarsystem",
+  "author": {
+    "name" : "Zaniyar Jahany",
+    "email" : "jaha@zhaw.ch",
+    "url" : "https://MetaRoom.city/"
+  },
+  "license": "CC BY-NC 4.0",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-sdk/client-polly": "^3.335.0",
+    "@emotion/cache": "^11.10.7",
+    "@emotion/react": "^11.10.6",
+    "@emotion/utils": "^1.2.0",
+    "@mantine/core": "^6.0.8",
+    "@mantine/hooks": "^6.0.8",
+    "@react-buddy/ide-toolbox": "^2.3.1",
+    "@react-buddy/palette-mantine-core": "^6.0.0",
+    "@react-three/drei": "^9.69.1",
+    "@react-three/fiber": "^8.12.1",
+    "@tabler/icons-react": "^2.16.0",
+    "@tensorflow-models/speech-commands": "^0.5.4",
+    "@tensorflow/tfjs": "^4.4.0",
+    "@vladmandic/face-api": "^1.7.10",
+    "api": "^5.0.8",
+    "lodash": "^4.17.21",
+    "microsoft-cognitiveservices-speech-sdk": "^1.28.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-spring": "^9.7.1",
+    "ssml": "^0.0.4",
+    "stylelint-config-standard": "^33.0.0",
+    "three": "^0.151.3",
+    "valtio": "^1.10.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint-plugin-valtio": "^0.6.2",
+    "vite": "^4.2.0"
+  },
+  "homepage": "/wowen/avatar/"
+}
