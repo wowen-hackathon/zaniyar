@@ -17,8 +17,7 @@ This project utilizes a GPT-based AI, "pretrained" with extensive information an
 ## Demo
 
 Check out the Live Demo [here](https://swissmade.xyz/wowen/avatar/).
-
-<video src='https://swissmade.xyz/wowen/vitalik.mp4' width='180'/>
+[Check out the video]([http://www.path-to-your-video.com](https://swissmade.xyz/wowen/vitalik.mp4))
 
 ## License
 
